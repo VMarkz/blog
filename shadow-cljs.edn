@@ -1,0 +1,8 @@
+{:source-paths ["src/main"]
+ :dependencies [[reagent "1.1.0"]]
+ :nrepl        {:port 5555}
+ :dev-http     {8080 "resources/public"}
+ :builds       {:curriculum      {:target :browser
+                                  :output-dir "resources/public/"
+                                  :asset-path "resources/public/"
+                                  :modules {:main {:init-fn core/start}}}}}

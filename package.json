@@ -1,0 +1,28 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "This is my curriculum, but beyond that, this project also serves as a learning tool for frontend development with Clojure(script).",
+  "main": "index.js",
+  "scripts": {
+    "repl": "shadow-cljs watch curriculum",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VMarkz/curriculum-vitae.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VMarkz/curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/VMarkz/curriculum-vitae#readme",
+  "devDependencies": {
+    "shadow-cljs": "^2.14.6"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
