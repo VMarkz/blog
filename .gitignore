@@ -1,6 +1,9 @@
 resources/public/cljs-runtime
 resources/public/main.js
 resources/public/manifest.edn
+cljs-runtime/
+main.js
+manifest.edn
 node_modules/
 .shadow-cljs/
 package-lock.json

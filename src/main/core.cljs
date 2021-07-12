@@ -3,10 +3,10 @@
             [reagent.dom :as rdom]))
 
 (def links-map
-  [{:img "linkedin.png"
+  [{:img "resources/public/linkedin.png"
     :text "linkedin"
     :url "https://www.linkedin.com/in/vitor-marques-73b8991a9/"}
-   {:img "github.png"
+   {:img "resources/public/github.png"
      :text "github"
      :url "https://github.com/VMarkz"}])
 
@@ -25,13 +25,7 @@ neque et pretium. Fusce lacinia ex metus.")
     :hole "BackEnd Developer"
     :company "PayGo Pagamentos, São Paulo."
     :experiences [{:experience "Backend development with Clojure and ClojureScript."}
-                  {:experience "CI/CD with GitHub Actions"}]}
-   {:start-date "Sep. 2020"
-     :end-date "Present"
-     :hole "BackEnd Developer"
-     :company "PayGo Pagamentos, São Paulo."
-     :experiences [{:experience "Backend development with Clojure and ClojureScript."}
-                   {:experience "CI/CD with GitHub Actions"}]}])
+                  {:experience "CI/CD with GitHub Actions"}]}])
 
 (defn link [img text url]
   [:div {:style {:display "flex"
