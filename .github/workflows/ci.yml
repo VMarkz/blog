@@ -19,5 +19,5 @@ jobs:
     
     - name: Install dependencies
       run: npm install --save-dev
-    - name: Run app
-      run: npm run repl
+    - name: Release app
+      run: npm run release
