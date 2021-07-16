@@ -10,7 +10,10 @@
     :url "https://www.linkedin.com/in/vitor-marques-73b8991a9/"}
    {:img "resources/public/github.png"
      :text "github"
-     :url "https://github.com/VMarkz"}])
+     :url "https://github.com/VMarkz"}
+   {:img "resources/public/email.png"
+     :text "vmp.vitor.vmp@gmail.com"
+     :url "https://gmail.com"}])
 
 (def summary-list
   [{:item "Completing 1 year of development with Clojure(Script)."}
