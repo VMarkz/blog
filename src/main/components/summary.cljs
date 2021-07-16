@@ -1,15 +1,13 @@
 (ns components.summary)
 
 (def summary-text
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare sem in
-sapien volutpat vulputate. Vestibulum at velit convallis, pharetra enim sit amet,
-faucibus magna. Maecenas lectus dolor, ultrices ac nunc sed, ullamcorper
-tincidunt eros. Integer tempor ligula elementum, tincidunt leo a, aliquam quam.
-Duis maximus libero ut arcu sollicitudin commodo. Pellentesque maximus risus quis
-feugiat tempus. In finibus lacus nec aliquam commodo. Mauris sodales sagittis
-neque et pretium. Fusce lacinia ex metus.")
+  "Backend developer, currently working with Clojure(Script), interested and open
+    to learning more and more, not only about Clojure and the functional paradigm,
+    but also about everything related to the world of programming. I believe that
+    exposing ideas/opinions, communication and teamwork are the greatest gifts for
+    delivering a product that adds value.")
 
-(defn summary []
+(defn summary [items]
   [:div
     [:h2.section-title "Summary"]
    [:div
@@ -17,6 +15,5 @@ neque et pretium. Fusce lacinia ex metus.")
    [:div
     [:ul.my-ul {:style {:list-style-type "square"
                         :margin-left "15px"}}
-     [:li.list "Item 0"]
-     [:li.list "Item 1"]
-     [:li.list "Item 2"]]]])
+     (for [item items]
+       [:li.list (:item item)])]]])
