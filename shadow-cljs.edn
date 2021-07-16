@@ -3,6 +3,6 @@
  :nrepl        {:port 5555}
  :dev-http     {8080 "./"}
  :builds       {:curriculum      {:target :browser
-                                  :output-dir "resources/public"
+                                  :output-dir "resources/public/js"
                                   :asset-path "./"
                                   :modules {:main {:init-fn core/start}}}}}
