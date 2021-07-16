@@ -1,5 +1,5 @@
 (ns components.title)
 
 (defn title []
-  [:div [:h1.title "Curriculum Vitae"]
-        [:h2.subtitle "Vitor Marques"]])
+  [:div [:h1.title "Vitor Marques"]
+        [:h2.subtitle [:i "Curriculum Vitae"]]])

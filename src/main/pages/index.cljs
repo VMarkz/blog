@@ -12,6 +12,16 @@
      :text "github"
      :url "https://github.com/VMarkz"}])
 
+(def summary-list
+  [{:item "Completing 1 year of development with Clojure(Script)."}
+   {:item "Comfortable with REPL Driven Development."}
+   {:item "Development of Rest APIs with (Clojure/Java(Spring Boot))"}
+   {:item "Use of Datomic, Postgresql, SqlServer."}
+   {:item "Internerization with Docker and Kubernets."}
+   {:item "CI and CD with GitHub Actions."}
+   {:item "Learning to implement web interfaces with Clojure Scrpit."}
+   {:item "Use of React, Reagent."}])
+
 (def experiences-map
   [{:start-date "Sep. 2020"
     :end-date "Present"
@@ -24,5 +34,5 @@
   [:div [:div.container
          [header links-map]
          [:div
-          [summary]
+          [summary summary-list]
           [experience experiences-map]]]])
