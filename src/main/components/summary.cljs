@@ -11,12 +11,12 @@ neque et pretium. Fusce lacinia ex metus.")
 
 (defn summary []
   [:div
-    [:h2.title "Summary"]
+    [:h2.section-title "Summary"]
    [:div
     [:p summary-text]]
    [:div
-    [:ul {:style {:list-style-type "square"
-                  :margin-left "15px"}}
-     [:li "Item 0"]
-     [:li "Item 1"]
-     [:li "Item 2"]]]])
+    [:ul.my-ul {:style {:list-style-type "square"
+                        :margin-left "15px"}}
+     [:li.list "Item 0"]
+     [:li.list "Item 1"]
+     [:li.list "Item 2"]]]])

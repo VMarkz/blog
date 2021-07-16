@@ -4,6 +4,6 @@
    [components.links :refer [links]]))
 
 (defn header [items]
-  [:div.level
+  [:div.header
    [title]
    [links items]])

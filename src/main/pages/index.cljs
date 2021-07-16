@@ -15,7 +15,7 @@
 (def experiences-map
   [{:start-date "Sep. 2020"
     :end-date "Present"
-    :hole "BackEnd Developer"
+    :role "BackEnd Developer"
     :company "PayGo Pagamentos, São Paulo."
     :experiences [{:experience "Backend development with Clojure and ClojureScript."}
                   {:experience "CI/CD with GitHub Actions"}]}])
