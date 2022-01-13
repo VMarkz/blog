@@ -2,3 +2,5 @@ node_modules/
 .shadow-cljs/
 package-lock.json
 resources/public/js/
+.clj-kondo/
+.lsp/

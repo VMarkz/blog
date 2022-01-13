@@ -9,17 +9,18 @@
     :text "linkedin"
     :url "https://www.linkedin.com/in/vitor-marques-73b8991a9/"}
    {:img "resources/public/github.png"
-     :text "github"
+     :text "github.com/VMarkz"
      :url "https://github.com/VMarkz"}
    {:img "resources/public/email.png"
      :text "vmp.vitor.vmp@gmail.com"
      :url "https://gmail.com"}])
 
 (def summary-list
-  [{:item "Completing 1 year of development with Clojure(Script)."}
-   {:item "Comfortable with REPL Driven Development."}
+  [{:item "Completing 2 years of development with Clojure(Script)."}
+   {:item "Comfortable with REPL Driven Development and Data Driven Development."}
    {:item "Development of Rest APIs with (Clojure/Java(Spring Boot))"}
-   {:item "Use of Datomic, Postgresql, SqlServer."}
+   {:item "Use of MongoDB, Datomic, Postgresql, SqlServer."}
+   {:item "Use of Kafka and Kafka Streams"}
    {:item "Internerization with Docker and Kubernets."}
    {:item "CI and CD with GitHub Actions."}
    {:item "Learning to implement web interfaces with Clojure Scrpit."}
@@ -31,7 +32,9 @@
     :role "BackEnd Developer"
     :company "PayGo Pagamentos, São Paulo."
     :experiences [{:experience "Backend development with Clojure and ClojureScript."}
-                  {:experience "CI/CD with GitHub Actions"}]}])
+                  {:experience "CI/CD with GitHub Actions"}
+                  {:experience "Kafka and Kafka Streams"}
+                  {:experience "MongoDB with complex aggregations"}]}])
 
 (defn index []
   [:div [:div.container
