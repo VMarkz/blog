@@ -4,7 +4,8 @@
   "description": "This is my curriculum, but beyond that, this project also serves as a learning tool for frontend development with Clojure(script).",
   "main": "index.js",
   "engines": {
-    "npm": "8.19.2"
+    "npm": "8.19.2",
+    "node": "19.0.0"
   },
   "scripts": {
     "repl": "shadow-cljs watch curriculum",
