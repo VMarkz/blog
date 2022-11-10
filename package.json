@@ -1,6 +1,6 @@
 {
   "name": "curriculum-vitae",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is my curriculum, but beyond that, this project also serves as a learning tool for frontend development with Clojure(script).",
   "main": "index.js",
   "scripts": {
