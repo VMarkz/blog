@@ -16,25 +16,32 @@
      :url "https://gmail.com"}])
 
 (def summary-list
-  [{:item "Completing 2 years of development with Clojure(Script)."}
+  [{:item "2 years of development with Clojure(Script)."}
    {:item "Comfortable with REPL Driven Development and Data Driven Development."}
-   {:item "Development of Rest APIs with (Clojure/Java(Spring Boot))"}
-   {:item "Use of MongoDB, Datomic, Postgresql, SqlServer."}
-   {:item "Use of Kafka and Kafka Streams"}
-   {:item "Internerization with Docker and Kubernets."}
+   {:item "Development of Rest APIs with (Clojure/Java/Kotlin)."}
+   {:item "Use of MongoDB, Datomic, Postgresql, SqlServer, MySql."}
+   {:item "Use of Kafka and Kafka Streams."}
+   {:item "Containers with Docker and Kubernets."}
    {:item "CI and CD with GitHub Actions."}
    {:item "Learning to implement web interfaces with Clojure Scrpit."}
    {:item "Use of React, Reagent."}])
 
 (def experiences-map
   [{:start-date "Sep. 2020"
-    :end-date "Present"
+    :end-date "Aug. 2022"
     :role "BackEnd Developer"
     :company "PayGo Pagamentos, São Paulo."
     :experiences [{:experience "Backend development with Clojure and ClojureScript."}
-                  {:experience "CI/CD with GitHub Actions"}
-                  {:experience "Kafka and Kafka Streams"}
-                  {:experience "MongoDB with complex aggregations"}]}])
+                  {:experience "CI/CD with GitHub Actions."}
+                  {:experience "Kafka and Kafka Streams."}
+                  {:experience "MongoDB with complex aggregations."}]}
+   {:start-date "Aug. 2022"
+    :end-date "Present"
+    :role "BackEnd Developer"
+    :company "C6 Bank, São Paulo."
+    :experiences [{:experience "Backend development with Kotlin."}
+                  {:experience "Messaging with Kafka and ActiveMQ."}
+                  {:experience "Data manipulation with MySql."}]}])
 
 (defn index []
   [:div [:div.container
