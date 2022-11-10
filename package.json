@@ -6,7 +6,8 @@
   "scripts": {
     "repl": "shadow-cljs watch curriculum",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "shadow-cljs release curriculum"
+    "release": "shadow-cljs release curriculum",
+    "heroku-postbuild": "npm run release"
   },
   "repository": {
     "type": "git",
