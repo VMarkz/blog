@@ -6,6 +6,7 @@ body{
 }
 
 a{
+  align-content: center;
   color: #004080;
   text-decoration: none;
 }
@@ -67,6 +68,15 @@ p{
 }
 
 .experience{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.formation{
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;

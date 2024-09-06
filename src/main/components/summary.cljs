@@ -1,11 +1,10 @@
 (ns components.summary)
 
 (def summary-text
-  "Backend developer, currently working with Clojure(Script), interested and open
-    to learning more and more, not only about Clojure and the functional paradigm,
-    but also about everything related to the world of programming. I believe that
-    exposing ideas/opinions, communication and teamwork are the greatest gifts for
-    delivering a product that adds value.")
+  "Backend developer, currently working with the develoment of Banking as a Service products in C6 Bank, interested and open
+   to learning more and more about everything related to the world of programming. I believe that
+   exposing ideas/opinions, communication and teamwork are the greatest gifts for
+   delivering a product that adds value.")
 
 (defn summary [items]
   [:div
